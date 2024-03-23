@@ -1,0 +1,79 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Cor de fundo pastel */
+}
+
+header {
+    background: rgba(255, 255, 255, 0.8); /* Fundo com efeito de vidro */
+    backdrop-filter: blur(10px); /* Efeito de vidro */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Cor de fundo pastel */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+section {
+    padding: 50px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 0 0 calc(33.333% - 20px);
+    margin: 10px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.image p {
+    text-align: center;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.8); /* Fundo com efeito de vidro */
+    backdrop-filter: blur(10px); /* Efeito de vidro */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ccc; /* Borda superior */
+}
