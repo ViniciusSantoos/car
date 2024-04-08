@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Aplicando a fonte Roboto */
     line-height: 1.6;
     background-color: #f9f9f9; /* Cor de fundo pastel */
 }
@@ -76,4 +76,19 @@ footer {
     text-align: center;
     padding: 20px;
     border-top: 1px solid #ccc; /* Borda superior */
+}
+
+/* Estilizando os links das redes sociais */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    color: #ff3366; /* Cor de hover desejada */
 }
