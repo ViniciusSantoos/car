@@ -6,6 +6,10 @@
     <title>Catellani - Buffets Incríveis</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <!-- Adicione a fonte Roboto do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Adicione o Font Awesome para os ícones das redes sociais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         /* Ajuste do tamanho da imagem no carrossel */
         .carousel-item img {
@@ -18,6 +22,11 @@
 <body>
     <header>
         <h1>Catellani</h1>
+        <!-- Adicione os links das redes sociais no header -->
+        <div class="social-links">
+            <a href="https://www.instagram.com/catellani_buffet/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <!-- Adicione outros links para redes sociais conforme necessário -->
+        </div>
         <nav>
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
@@ -37,22 +46,32 @@
     <section id="buffets">
         <div class="container">
             <h2>Nossos Buffets</h2>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="1900">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/thumbnail_IMG_3273.jpg" class="d-block w-100" alt="Buffet 1">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Buffet 1</h5>
+                            <h5>Buffet </h5>
                             <p>Descrição do sabor incrível do Buffet 1.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/thumbnail_IMG_8890.jpg" class="d-block w-100" alt="Buffet 2">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Buffet 2</h5>
+                            <h5>Buffet </h5>
                             <p>Descrição do sabor incrível do Buffet 2.</p>
                         </div>
                     </div>
+
+
+
+                        <div class="carousel-item">
+                            <img src="images/thumbnail_IMG_8555.jpg" class="d-block w-100" alt="Buffet 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Buffet </h5>
+                                <p>Descrição do sabor incrível do Buffet 2.</p>
+                            </div>
+
                     <!-- Adicione mais imagens conforme necessário -->
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -71,6 +90,8 @@
         <div class="container">
             <h2>Contato</h2>
             <p>Informações de contato da Catellani.</p>
+            <!-- Adicione o ícone do Instagram na seção de contato -->
+            <a href="https://www.instagram.com/catellani_buffet/" target="_blank"><i class="fab fa-instagram"></i> @catellani</a>
         </div>
     </section>
 
